@@ -1,0 +1,98 @@
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 20px;
+    gap: 50px;
+    /* border: 1px solid black; */
+  }
+  .output {
+    /* border: 1px solid black; */
+    margin: 20px;
+  }
+  .output > h3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+  }
+  ul {
+    list-style-type: none;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+  }
+  .head-two {
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+  }
+  .head-one {
+    font-family: "Dela Gothic One", cursive;
+    font-size: 40px;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .game-weapon {
+    display: flex;
+    flex-direction: column;
+  }
+  .game-weapon:hover {
+    transform: scale(2);
+  }
+  img {
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    border: 2px solid blueviolet;
+  }
+  .main {
+    border: 3px double blueviolet;
+    background-color: burlywood;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  button {
+    margin: 0px;
+    padding: 0px;
+    background-color: burlywood;
+    height: 107px;
+  }
+  #one {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .right {
+    /* margin-left: auto; */
+    border: 2px solid red;
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .left {
+    /* justify-content: center; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .right > h3 {
+    font-size: 20px;
+  }
+  #two,
+  #three {
+    color: brown;
+    font-weight: bold;
+  }
+  body {
+    background-color: grey;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+  
