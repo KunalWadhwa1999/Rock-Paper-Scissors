@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="left">
+        <div class="header">
+          <div class="head-one">ROCK, PAPER AND SCISSORS</div>
+          <div class="head-two">Let's see who score the 5 points first!!</div>
+        </div>
+        <div class="game">
+          <div class="game-weapon">
+            <button class="weapon rock">
+              <img src="/images/rocky.jpg" alt="" />
+            </button>
+          </div>
+          <div class="game-weapon">
+            <button class="weapon paper">
+              <img src="/images/images-removebg-preview.jpg" alt="" />
+            </button>
+          </div>
+          <div class="game-weapon">
+            <button class="weapon scissors">
+              <img src="/images/download-removebg-preview.jpg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="output">
+          <h3>Result after each round:</h3>
+          <ul id="one"></ul>
+        </div>
+      </div>
+      <div class="right">
+        <h3><u>Scores after each round:</u></h3>
+        <div class="footer">
+          <div class="cscore">
+            <strong>Computer Score:</strong>
+            <ul id="two"></ul>
+          </div>
+          <div class="pscore">
+            <strong>Player Score:</strong>
+            <ul id="three"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
